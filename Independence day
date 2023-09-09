@@ -1,0 +1,72 @@
+# Kuiz kemerdekaan 
+
+# Initialize the score
+score = 0
+
+# Soalan 1
+print("Soalan 1: Bilakah tarikh kemerdekaan?")
+print("A) 1957")
+print("B) 1975")
+print("C) 1976")
+answer1 = input("Jawapan: ")
+
+if answer1.lower() == "A":
+    print("Betul!")
+    score += 2
+else:
+    print("Maaf. Jawapannya ialah A) 1957.")
+
+# Soalan 2
+print("\nSoalan 2: Nama bendera Malaysia?")
+print("A) Bendera Gemilang")
+print("B) Jalur Terbilang")
+print("C) Jalur Gemilang")
+answer2 = input("Jawpan: ")
+
+if answer2.lower() == "C":
+    print("Betul!")
+    score += 2
+else:
+    print("Maaf. Jawapannya ialah C) Jalur Gemilang.")
+
+# Soalan 3
+print("\nSoalan 3: Apakah tema kemerdekaan tahun 2023?")
+print("A) Malaysia harmoni")
+print("B) Malaysia madani")
+print("C) Keluarga malaysia")
+answer3 = input("Jawapan: ")
+
+if answer3.lower() == "B":
+    print("Betul!")
+    score += 2
+else:
+    print("Maaf. Jawapannya ialah B) Malaysia madani.")
+
+# Soalan 4
+print("\nSoalan 4: Warna biru pada jalur gemilang melambangkan?")
+print("A) Perpaduan")
+print("B) Malaysia madani")
+print("C) Budi perketi")
+answer4 = input("Jawapan: ")
+
+if answer4.lower() == "A":
+    print("Betul!")
+    score += 2
+else:
+    print("Maaf. Jawapannya ialah A) Perpaduan.")
+
+# Soalan 5
+print("\nSoalan 5: Sudah berapa tahunkan kita menyambut kemerdekaan?")
+print("A) 67 Tahun")
+print("B) 69 Tahun")
+print("C) 66 Tahun")
+answer5 = input("Jawapan: ")
+
+if answer5.lower() == "C":
+    print("Betul!")
+    score += 2
+else:
+    print("Maaf. Jawapannya ialah C) 66 Tahun.")
+
+# Display the final score
+print("\nKuiz selesai! Markah anda ialah:", score, "daripada 10.")
